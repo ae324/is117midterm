@@ -45,11 +45,15 @@
 }
 #words h2{
     color: blue;
-    top: 150px;
-    left: 100px;
+    top: 200px;
+    left: 350px;
     position: relative;
-
-
+}
+#words {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
 }
 .clearfix{
     clear: both;
@@ -90,11 +94,48 @@
     padding-left: 40px;
 }
 
-.fixedposition{
-    position: fixed;
+.footer {
+    position: absolute;
+    alignment: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    clear: both;
 
 }
-.bottomZero{
-    bottom: 0px;
-    width: 950px;
+
+#main {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+
+}
+#secondMain {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#leftside {
+    position: absolute;
+    float: left;
+    width: 325px;
+}
+#rightside {
+    margin-right: 100px;
+    position: relative;
+}
+
+#top {
+    background-color: deeppink;
+    width: 100%;
+    height: 100%;
 }
