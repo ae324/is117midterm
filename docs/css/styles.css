@@ -25,13 +25,12 @@
     padding-top: 20px;
 }
 #footer{
-
     height: 30px;
     background-color: black;
     text-align: center;
     color: white;
     padding: 30px;
-    alignment: bottom;
+
 
 }
 #mainimage {
@@ -56,11 +55,7 @@
     clear: both;
 }
 
-#opacity{
-    width: 400px ;
-    opacity: 0.8 ;
 
-}
 .floatRight{
     float: right;
 }
@@ -69,23 +64,37 @@
     border: 1px black solid;
 }
 #mountainimage{
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right:0px;
+    padding-left: 10px;
 }
 #content{
     margin-right: 200px;
     margin-top: 80px ;
+    margin-left: 10px;
 }
 #table{
     margin-left: 150px;
 }
-p{
-    padding-left: 20px;
-}
+
 #caption{
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-top:2px;
 }
-.clearMargin{
-    ;
+.clearMargin {
+    margin: 0px;
+}
+#content p{
+    padding-left: 40px;
+}
+
+.fixedposition{
+    position: fixed;
+
+}
+.bottomZero{
+    bottom: 0px;
+    width: 950px;
 }
