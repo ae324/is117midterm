@@ -1,0 +1,91 @@
+.big{
+    width: 545px;
+    padding-left: 24px;
+    padding-right: 34px;
+}
+.floatLeft{
+    float: left;
+}
+.textRight{
+    text-align: right;
+}
+.small{
+    width: 329px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.displayInline{
+    display: inline;
+}
+.MarginCenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+#menu{
+    padding-top: 20px;
+}
+#footer{
+
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    alignment: bottom;
+
+}
+#mainimage {
+    background-size: cover;
+
+}
+#words h1{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    color: white;
+}
+#words h2{
+    color: blue;
+    top: 150px;
+    left: 100px;
+    position: relative;
+
+
+}
+.clearfix{
+    clear: both;
+}
+
+#opacity{
+    width: 400px ;
+    opacity: 0.8 ;
+
+}
+.floatRight{
+    float: right;
+}
+
+.thinBorder {
+    border: 1px black solid;
+}
+#mountainimage{
+    padding: 20px;
+}
+#content{
+    margin-right: 200px;
+    margin-top: 80px ;
+}
+#table{
+    margin-left: 150px;
+}
+p{
+    padding-left: 20px;
+}
+#caption{
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-top:2px;
+}
+.clearMargin{
+    ;
+}
